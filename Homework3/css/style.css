@@ -54,33 +54,23 @@
   .menu_item-link:hover {
 	color: #03a9f4;
   }
-
-  .box-lifestyleleft{
-	  text-align: left;
-	position: absolute;}
-
-	  .box-lifestyleright{
-		text-align: right;
-		position: absolute;
-
-	  }
   
-  .container-lifestyle {
+  .batiko {
 	font-size: 0;
   }
   
-  .box-lifestyle {
+  .divka {
 	display: inline-block;
 	max-width: 50%;
 	margin-bottom: 130px;
 	font-size: 14px;
   }
   
-  .img-container {
+  .container-kartinok {
 	margin-bottom: 30px;
   }
   
-  .img-title {
+  .kartinka-title {
 	margin-bottom: 32px;
 	font-family: "Ubuntu", sans-serif;
 	color: rgb(180, 173, 158);
@@ -94,7 +84,7 @@
 	margin-bottom: 36px;
   }
   
-  .text-block {
+  .peshka {
 	line-height: 1.714;
   }
   
@@ -105,4 +95,31 @@
   .right {
 	padding-left: 30px;
   }
+   
+  .wrp-btn {
+	text-align: center;
+	padding-bottom: 95px;
+  }
   
+  .btn-load {
+	display: inline-block;
+	width: 164px;
+	height: 60px;
+	border: rgb(98, 98, 98) solid 1px;
+	color: #626262;
+	text-align: center;
+	font-size: 24px;
+	line-height: 60px;
+	text-decoration: none;
+  }
+  
+  .btn-load:hover {
+	color: #03a9f4
+  }
+  
+  .diveka {
+	display: inline-block;
+	max-width: 50%;
+	font-size: 14px;
+	margin-bottom: 90px
+  }
