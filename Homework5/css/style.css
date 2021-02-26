@@ -1,0 +1,565 @@
+/* ------------------------------Fons----------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* ------------------------------End fons------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* -------------------------------------------------- Menu-------------------------------------------------------------- */
+
+.container { 
+  max-width: 1170px; 
+  margin: 0 auto;
+  padding: 0 15px; 
+} 
+ 
+.header { 
+  padding-top: 40px; 
+  background-size: cover; 
+  margin-bottom: 131px;
+} 
+ 
+.navigation { 
+  display: flex; 
+  justify-content: space-between; 
+} 
+ 
+.logo { 
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #95e1d3;
+  text-decoration: none;
+} 
+
+.menu { 
+  color: #95e1d3; 
+  display: flex; 
+  align-items: center; 
+} 
+ 
+.menu-item:not(:last-child) { 
+  margin-right: 32px; 
+} 
+
+.menu-item{
+  list-style: none;
+}
+ 
+.menu-item__link { 
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: #95e1d3;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+} 
+ 
+.menu-item__link::after { 
+  margin-top: 10px;
+  content: ""; 
+  display: block; 
+  height: 3px; 
+  width: 0; 
+  background-color: #f38181; 
+  transition: 0.2s linear all; 
+} 
+ 
+.menu-item__link:hover::after { 
+  width: 100%; 
+} 
+ 
+.menu-item__link:hover { 
+  color: #f38181; 
+}
+
+/* ---------------------------------------------------End Menu-------------------------------------------- */
+/* ---------------------------------------------------Title-1--------------------------------------------- */
+
+  .title-1{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: 'Kaushan Script',  cursive;
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+  }
+
+  .title-2 {
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 28px;
+    font-family: 'Montserrat';
+    color: rgb(51, 51, 51);
+    font-weight: bold ;
+}
+
+  .title-2::after {
+    content: "";
+    display: block;
+    background-color: #f38181;
+    width: 50px;
+    height: 2px;
+    margin: 28px auto 0;
+}
+  .box-title_1{
+      padding-bottom: 66px;
+  }
+
+ /* ---------------------------------------------------End Title-1----------------------------------------------------------- */
+ /* -------------------------------------------------- Services-------------------------------------------------------------- */
+.service-item_1{
+    display: flex;
+    width: 33.3%;
+    margin-bottom: 50px;
+    padding-right: 15px;
+}
+
+.serv-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 1170;
+    margin-left: 15%; */
+}
+
+/* .container { 
+  max-width: 1170px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+} */
+
+
+.service-title{
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+}
+
+.service-text{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  padding-left: 62px;
+}
+
+.service-item_top{
+    display: flex;
+}
+
+.img-service_container{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+/* --------------------------------------------------End Services-------------------------------------------------------------- */
+/* --------------------------------------------------Developers------------------------------------------------------------------- */
+
+.box-title_1 {
+  display: block;
+  text-align: center;
+  /* border: 1px solid crimson; */
+}
+.title-1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Kaushan Script", cursive;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  
+  
+  .Meet_our_team::after {
+    content: "";
+    display: block;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+  
+  .Meet_our_team__p {
+    display: block;
+    margin-top: 38px;
+  }
+  
+  .Meet_our_team____p {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    /* border: 1px solid crimson; */
+  }
+  
+  .Meet_our_team__img-block {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* margin: 0 auto; */
+    margin-top: 85px;
+    /* border: 1px solid crimson; */
+  }
+  
+  .meet_our_team_block-display {
+    display: flex;
+    height: 550px;
+    margin-bottom: 62px;
+    width: 1210px;
+    justify-content: space-around;
+  }
+  
+  .developer-1 {
+    width: 380px;
+    height: 470px;
+    background-color: rgb(149, 225, 211);
+    position: relative;
+    cursor: pointer;
+    margin-left: 0;
+    margin-bottom: 62px;
+  }
+  
+  .developer-1:hover .ac-s {
+    top: 0;
+  }
+  
+  /* .developer-2 {
+    width: 380px;
+    height: 470px;
+    background-color: rgb(149, 225, 211);
+    position: relative;
+    cursor: pointer;
+    margin-left: 0;
+  }
+  
+  
+  
+  .developer-2:hover .ac-s {
+    top: 0;
+  }
+  
+  .developer-3 {
+    width: 380px;
+    height: 470px;
+    background-color: rgb(149, 225, 211);
+    position: relative;
+    cursor: pointer;
+    margin-left: 0;
+  }
+  
+  .developer-3  :hover .ac-s {
+    top: 0;
+  } */
+  
+  .ac-s {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(85, 85, 85, 0.502); */
+    background-image: -moz-linear-gradient(
+      90deg,
+      rgb(252, 227, 138, 0.902) 0%,
+      rgb(243, 129, 129, 0.902) 100%
+    );
+    background-image: -webkit-linear-gradient(
+      90deg,
+      rgb(252, 227, 138, 0.902) 0%,
+      rgb(243, 129, 129, 0.902) 100%
+    );
+    background-image: -ms-linear-gradient(
+      90deg,
+      rgb(252, 227, 138, 0.902) 0%,
+      rgb(243, 129, 129, 0.902) 100%
+    );
+    position: absolute;
+    transition: all 0.3s linear;
+  }
+  
+  .ac-s{
+    top: -10;
+    left: -10;
+  }
+  
+  .dev_img {
+    width: 380px;
+    height: 470px;
+    /* border: 1px solid crimson; */
+  }
+  
+  .dev-n {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .dev-t {
+    margin-top: 4px;
+   /* margin-bottom: 62px; */
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .meet_our_team_block-display .img-container {
+    position: relative;
+    /* width: auto; */
+    /* height: 545px; */
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  
+  /* .img-container{
+  
+  } */
+  
+  .img-container:hover {
+    transform: translateX(-10px) translateY(-10px);
+  }
+  
+  .meet_our_team_block-display .img-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .soc-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 227, 138);
+    width: 225px;
+    height: 55px;
+    position: relative;
+    margin: auto auto 207px;
+  }
+  
+  .soc-l {
+    display: flex;
+    background-color: rgb(252, 227, 138);
+    position: relative;
+    /* left: 428px; */
+    /* top: 1177px; */
+    width: 56px;
+    height: 56px;
+    transition: 0.2s linear all;
+  }
+  
+  .soc-l:not(:last-child) {
+    border-right: 1px solid rgb(243, 129, 129);
+  }
+  
+  .soc-l:hover {
+    background-color: rgb(3, 234, 238);
+  }
+  
+  .soc-i {
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    /* color: rgb(252, 227, 138); */
+    margin: auto;
+  }
+  
+  .facebook {
+    /* left: 451px;
+    top: 1192px; */
+    width: 13px;
+    height: 26px;
+  }
+  
+  .twitter {
+    width: 26px;
+    height: 22px;
+  }
+  
+  .pinterest {
+    width: 21px;
+    height: 26px;
+  }
+  
+  .instagram {
+    border-radius: -3px;
+    width: 26px;
+    height: 26px;
+  }
+  
+  /* 
+  .facebook {
+    background-color: rgb(243, 129, 129);
+    position: absolute;
+    left: 451px;
+    top: 1192px;
+    width: 13px;
+    height: 26px;
+    z-index: 27;
+  }
+  .twitter {
+  background-color: rgb(243, 129, 129);
+  position: absolute;
+  left: 499px;
+  top: 1194px;
+  width: 26px;
+  height: 22px;
+  z-index: 30;
+}
+
+
+.pinterest {
+  background-color: rgb(243, 129, 129);
+  position: absolute;
+  left: 557px;
+  top: 1192px;
+  width: 21px;
+  height: 26px;
+  z-index: 29;
+}
+
+
+.instagram {
+  border-radius: -3px;
+  background-color: rgb(243, 129, 129);
+  position: absolute;
+  left: 610px;
+  top: 1192px;
+  width: 26px;
+  height: 26px;
+  z-index: 28;
+}
+
+
+ */
+
+ /* --------------------------------------------------End Developers------------------------------------------------------------- */
+/* -------------------------------------------------- Footer-------------------------------------------------------------- */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-top: #e5e5e5 solid 1px ;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    
+  }
+  
+  
+  /* .footer-container::before{
+     margin-bottom: 10px;
+    content: "";
+    display: block;
+    background-color:#e5e5e5;
+    width: 100%;
+    height: 1px;
+    margin-top: 86px;
+    /* margin-left: 119px; */
+  
+  .f-element{
+    display: flex;
+    max-width: 380px;
+  }
+  
+  .btn {
+    font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: rgb(149,225,211);
+  width: 152px;
+  height: 40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight:bold;
+  border: none;
+  }
+  
+  .f-text{
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      font-family: "Montserrat";
+      color: rgb(51, 51, 51);
+      line-height: 1.2; 
+  }
+  
+  .footer-d-1{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 13px ;
+  }
+  
+  .u-form{
+    margin: 0 auto;
+  }
+  
+  .u-form input{
+    display: flex;
+    width: 229px;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    transition: all .2s ease-in;
+    
+  }
+  
+  .u-form input::placeholder{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(204, 204, 204);
+  padding-top:14px ;
+  padding: 7px;
+  
+  }
+  
+  .u-form input:focus{
+    background-color: gainsboro;
+    box-shadow: 0px 1px 8px 0px rgb(153, 153, 153);
+  }
+  
+  .a-text{
+    color: #f38181;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  /* -------------------------------------------------- End Footer-------------------------------------------------------------- */
