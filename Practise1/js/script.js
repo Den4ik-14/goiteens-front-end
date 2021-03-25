@@ -1,25 +1,46 @@
-let studentAge = 14;
-let num = 14.678345;
+//.....//
+//.....//
+//first//
+//.....//
+//.....//
+let str = 'Привіт';
 
-console.log(studentAge + num * 8);
+console.log(typeof str);
 
+const num = 123;
 
+console.log(typeof  num);
 
-let studentName = 'Олександра';
-const str = 'hello';
-const numStr = '10';
+let flag = true;
 
-console.log(typeof numStr);
+console.log(typeof flag);
 
+const txt = 'true';
 
+console.log(typeof txt);
 
-let isGirl = true;
+//
+//
+//second
+//
+//
 
+let guest = null; //null
 
-let age2;
+let name; //undefined
 
-console.log('Наші студенти: Імя: ' + studentName + ', вік: ' + studentAge + '. Це дівчина? ' + isGirl);
+const nameString = 'string'; //string
 
+const number = 9078561234;  //number
 
-const email = ['den', 2,3]
-console.log(email[1])
+let crimeaBoolean = true;  //boolean
+
+const nameCrimea = 'Ukraine'; //string
+
+let ourPhone = 380662540602; //nubmer
+
+let war; //undefinded
+
+const freeBuy = null; //null
+
+const ukraineBest = true;

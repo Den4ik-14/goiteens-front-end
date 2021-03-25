@@ -8,12 +8,12 @@ const friendAge = Number(prompt('Скільки вашому другу рокі
 const ourAge = alert('Вам та вашому другу = ' + (myAge + friendAge));
 
 console.log(ourAge);
-// завдання 3//
+///3///
 const a = 10;
 const b = 7;
 let numberThree = a * b;
 console.log(numberThree);
-//завдання 4//
+///4///
 const a1 = 5 + 3;
 const a2 = 5 - 3;
 const a3 = 5 * 3;
@@ -24,7 +24,7 @@ console.log(a2);
 console.log(a3);
 console.log(a4);
 console.log(a5);
-//завдання  5//
+///5///
 const a6 = 5 % 3;      
 const a7 = 3 % 5;      alert(a7);
 const a8 = 5 +'3';     alert(a8);
@@ -43,9 +43,13 @@ let DC = 4;
 let v = 3.14 * ((DC / 2) ** 2) * heightC;
 
 console.log(v);
+
 ///8///
-const n = 3; //катет
-const m = 4; //катет
-let BC = 0; //гипотенуза
-BC = (n ** 2) + Math.pow(m, 2);
-console.log(BC);
+const n = 3;
+const m = 4;
+let g = 0;
+
+g = (n ** 2) + (m ** 2);
+g = Math.sqrt(g);
+
+console.log('g=', (Math.round(g)));

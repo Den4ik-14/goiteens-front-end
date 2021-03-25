@@ -22,7 +22,7 @@ console.log(Number.parseFloat(k3));
 console.log(Number.parseFloat(k4));
 
 console.log('================');
-ФЫФЦ
+
 //3 завдання
 
 console.log(Math.min(2, 34, 99, 3 , 22, 36, 733, 18));
