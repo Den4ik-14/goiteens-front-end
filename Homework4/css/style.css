@@ -137,7 +137,7 @@ transition: 0.2s linear all;
 
 }
 
-.services-item_name {}
+
 .services-item_name::before {
 content: "";
 display: inline-block;
@@ -249,8 +249,8 @@ height: 33px;
         margin-bottom: 86px;
     }
     
-    .fotos-men{
-    }
+    
+    
 
     .fotos-men:not(:last-child){
         margin-right: 30px;
