@@ -69,6 +69,6 @@ console.log('================')
 
 //8 завдання
 
-const userName = "den";
+const userName = "Олександра";
 const payment = "300 гривень";
 alert(Дякуємо ,{userName}, !  До, сплати,  {payment})
